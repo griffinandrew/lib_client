@@ -1,0 +1,11 @@
+[package]
+name = "lib_client"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rand = "0.9.2"
+paper-cache = { git = "ssh://git@github.com/griffinandrew/paper-cache-cxl.git", branch = "pmemkv_no_bg_thread_native_pmem"} 
+libc = "0.2.177"
+tikv-jemallocator = "0.6.1"
+typesize = "0.1.14"
